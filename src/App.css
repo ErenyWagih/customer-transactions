@@ -1,0 +1,80 @@
+body {
+  background-color: #405D72;
+  font-family: 'Kalam';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: 'Permanent Marker';
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-out;
+  margin: 20px; 
+  color: #EEF5FF;
+}
+
+h1:hover {
+  transform: translate(0, -100%);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px; 
+  overflow: hidden; 
+  width: 100%;
+  max-width: 100%;
+  margin: 20px auto; 
+  border-radius: 20px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ccc; 
+}
+
+th {
+  background-color: #86B6F6; 
+  color: white; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.table-container,
+.graph-container {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.graph-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.row .col-md-6 .form-control {
+  width: 100% !important;
+  max-width: 400px;
+}
